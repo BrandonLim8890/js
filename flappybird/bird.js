@@ -30,4 +30,11 @@ function Bird() {
 
   }
 
+  this.bottom = function() {
+    if(this.y == height) {
+      console.log("dead Dx");
+      abort();
+    }
+  }
+
 }

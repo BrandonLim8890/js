@@ -36,8 +36,9 @@ function draw() {
 
 }
 
-function keyPressed() {
-	if(key == ' ') {
-			bird.up();
+	function keyPressed() {
+		if(key == ' ') {
+				bird.up();
 	}
+
 }

@@ -33,7 +33,7 @@ function Pipe() {
   }
 
   this.offScreen = function() {
-    return this.x < -this.w;
+    return this.x < - this.w;
   }
 
 
